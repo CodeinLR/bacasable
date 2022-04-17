@@ -1,3 +1,11 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://localhost/"
+languageCode = "fr"
+theme = "congo"
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true
+paginate = 15
+summaryLength = 0
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
